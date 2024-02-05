@@ -18,7 +18,7 @@ const (
 var labelTemplate = SecScanLabelKey + "/%s"
 
 func main() {
-	fmt.Println("ocm resource equality test for ocm version v0.4.0")
+	fmt.Println("ocm resource equality test for ocm version v0.6.0")
 	fmt.Println("========================================")
 	fmt.Println("")
 	res, err := createResource("")
